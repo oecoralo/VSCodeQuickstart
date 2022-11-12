@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InternalNotes__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Proporcione notas internas. Las notas solo son visibles para los perfiles de usuarios internos específicos y no se comparten con perfiles de usuarios externos cuando el artículo se comparte externamente.</inlineHelpText>
+    <label>Notas internas</label>
+    <length>32768</length>
+    <type>Html</type>
+    <visibleLines>20</visibleLines>
+</CustomField>

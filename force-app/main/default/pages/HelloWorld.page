@@ -1,0 +1,12 @@
+<apex:page sidebar="false" showHeader="false"> 
+    <h1>Hello World</h1> 
+    <apex:pageBlock title="Un título de bloque">
+        <apex:pageBlockSection title="Un título de sección">
+            ¡Estoy a tres componentes de profundidad!
+        </apex:pageBlockSection>
+        <apex:pageBlockSection title="Una nueva sección">
+            This is a new section
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+    <p>This is my first Visualforce page.</p>
+</apex:page>
