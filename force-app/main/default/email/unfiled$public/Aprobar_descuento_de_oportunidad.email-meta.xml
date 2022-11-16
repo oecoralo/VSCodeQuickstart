@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Plantilla de email para poder enviar una notificación al gestor del propietario del registro en el caso de que se aplique a una oportunidad un descuento de más del 40%</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Aprobar descuento de oportunidad</name>
+    <style>none</style>
+    <subject>Apruebe esta oportunidad con descuento</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

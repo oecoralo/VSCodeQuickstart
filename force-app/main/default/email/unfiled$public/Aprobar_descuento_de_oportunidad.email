@@ -1,0 +1,3 @@
+{!User.Manager}:
+Se ha aplicado un descuento a {!Opportunity.Name}. Apruebe este descuento.
+Gracias.

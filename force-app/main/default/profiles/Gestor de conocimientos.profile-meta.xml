@@ -3493,6 +3493,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>trailheadapp__Setting__mdt.trailheadapp__Public_Namespace__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>trailheadapp__Trail__c.trailheadapp__Archived__c</field>
         <readable>false</readable>
     </fieldPermissions>

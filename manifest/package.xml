@@ -41,6 +41,14 @@
 		<name>ApprovalProcess</name>
 	</types>
 	<types>
+		<members>Case.Assign Booyah</members>
+		<members>Case.Awesome Admin Assignment</members>
+		<members>Case.Standard</members>
+		<members>Case.Support</members>
+		<members>Lead.Standard</members>
+		<name>AssignmentRule</name>
+	</types>
+	<types>
 		<members>*</members>
 		<name>AssignmentRules</name>
 	</types>
@@ -53,6 +61,10 @@
 		<name>AuthProvider</name>
 	</types>
 	<types>
+		<members>Case.Welcome to Support</members>
+		<name>AutoResponseRule</name>
+	</types>
+	<types>
 		<members>*</members>
 		<name>AutoResponseRules</name>
 	</types>
@@ -63,6 +75,11 @@
 	<types>
 		<members>*</members>
 		<name>BrandingSet</name>
+	</types>
+	<types>
+		<members>Case.Product Support and Billing</members>
+		<members>Opportunity.Retail Sales</members>
+		<name>BusinessProcess</name>
 	</types>
 	<types>
 		<members>*</members>
@@ -87,6 +104,10 @@
 	<types>
 		<members>*</members>
 		<name>Community</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CompactLayout</name>
 	</types>
 	<types>
 		<members>*</members>
@@ -117,8 +138,387 @@
 		<name>CustomFeedFilter</name>
 	</types>
 	<types>
+		<members>Account.Active__c</members>
+		<members>Account.AreaNumber__c</members>
+		<members>Account.CustomerPriority__c</members>
+		<members>Account.Data_Quality_Description__c</members>
+		<members>Account.Data_Quality_Score__c</members>
+		<members>Account.Match_Billing_Address__c</members>
+		<members>Account.NumberofLocations__c</members>
+		<members>Account.SLAExpirationDate__c</members>
+		<members>Account.SLASerialNumber__c</members>
+		<members>Account.SLA__c</members>
+		<members>Account.Support_Plan_Start_Date__c</members>
+		<members>Account.UpsellOpportunity__c</members>
+		<members>Activity.DB_Activity_Type__c</members>
+		<members>Activity.Data_Quality_Description__c</members>
+		<members>Activity.Data_Quality_Score__c</members>
+		<members>Activity.Feedback__c</members>
+		<members>Activity.Property__c</members>
+		<members>Author__c.Biography__c</members>
+		<members>Battle_Station__c.Crew_Members__c</members>
+		<members>Battle_Station__c.Project_Status__c</members>
+		<members>Battle_Station__c.Weapons_Status__c</members>
+		<members>Book__c.Author__c</members>
+		<members>Book__c.Description__c</members>
+		<members>Book__c.Genre__c</members>
+		<members>Campaign.DB_Campaign_Tactic__c</members>
+		<members>Campaign.Data_Quality_Description__c</members>
+		<members>Campaign.Data_Quality_Score__c</members>
+		<members>Campsite_Reservation__c.Campsite__c</members>
+		<members>Campsite_Reservation__c.End_Date__c</members>
+		<members>Campsite_Reservation__c.Start_Date__c</members>
+		<members>Campsite_Reservation__c.User__c</members>
+		<members>Campsite__c.Description__c</members>
+		<members>Case.Data_Quality_Description__c</members>
+		<members>Case.Data_Quality_Score__c</members>
+		<members>Case.EngineeringReqNumber__c</members>
+		<members>Case.PotentialLiability__c</members>
+		<members>Case.Product__c</members>
+		<members>Case.SLAViolation__c</members>
+		<members>Contact.Account_Number__c</members>
+		<members>Contact.Data_Quality_Description__c</members>
+		<members>Contact.Data_Quality_Score__c</members>
+		<members>Contact.Etapa__c</members>
+		<members>Contact.Languages__c</members>
+		<members>Contact.Level__c</members>
+		<members>Contact.Picture__c</members>
+		<members>Contract.Data_Quality_Description__c</members>
+		<members>Contract.Data_Quality_Score__c</members>
+		<members>Customer_Satisfaction_Survey__c.Comments__c</members>
+		<members>Customer_Satisfaction_Survey__c.Satisfaction__c</members>
+		<members>Customer_Satisfaction_Survey__c.Service__c</members>
+		<members>Drink_Order__c.Flavor__c</members>
+		<members>Drink_Order__c.Price__c</members>
+		<members>Drink_Order__c.Size__c</members>
+		<members>Goal.OrigGoalId__c</members>
+		<members>Hotel__c.Location__c</members>
+		<members>Knowledge__kav.Content__c</members>
+		<members>Knowledge__kav.DigitalEngagementResponse__c</members>
+		<members>Knowledge__kav.InternalNotes__c</members>
+		<members>Knowledge__kav.Question__c</members>
+		<members>Lead.CurrentGenerators__c</members>
+		<members>Lead.DB_Created_Date_without_Time__c</members>
+		<members>Lead.DB_Lead_Age__c</members>
+		<members>Lead.Data_Quality_Description__c</members>
+		<members>Lead.Data_Quality_Score__c</members>
+		<members>Lead.NumberofLocations__c</members>
+		<members>Lead.Primary__c</members>
+		<members>Lead.ProductInterest__c</members>
+		<members>Lead.SICCode__c</members>
+		<members>Metric.OrigMetricId__c</members>
+		<members>Opportunity.CurrentGenerators__c</members>
+		<members>Opportunity.DB_Competitor__c</members>
+		<members>Opportunity.Data_Quality_Description__c</members>
+		<members>Opportunity.Data_Quality_Score__c</members>
+		<members>Opportunity.Days_to_Close__c</members>
+		<members>Opportunity.DeliveryInstallationStatus__c</members>
+		<members>Opportunity.Estado_de_porcentaje_de_descuento__c</members>
+		<members>Opportunity.MainCompetitors__c</members>
+		<members>Opportunity.OrderNumber__c</members>
+		<members>Opportunity.Porcentaje_de_descuento__c</members>
+		<members>Opportunity.TrackingNumber__c</members>
+		<members>Recommendation__c.Book__c</members>
+		<members>Recommendation__c.Rating__c</members>
+		<members>Recommendation__c.Review__c</members>
+		<members>Resource__c.Battle_Station__c</members>
+		<members>Resource__c.Quantity__c</members>
+		<members>Resource__c.Utilization__c</members>
+		<members>Session_Speaker__c.Session__c</members>
+		<members>Session_Speaker__c.Speaker__c</members>
+		<members>Session__c.Description__c</members>
+		<members>Session__c.Level__c</members>
+		<members>Session__c.Session_Date__c</members>
+		<members>Speaker__c.Bio__c</members>
+		<members>Speaker__c.Email__c</members>
+		<members>Speaker__c.First_Name__c</members>
+		<members>Speaker__c.Last_Name__c</members>
+		<members>Speaker__c.Picture_Path__c</members>
+		<members>Speaker__c.Picture__c</members>
+		<members>Supply__c.Battle_Station__c</members>
+		<members>Supply__c.Quantity__c</members>
+		<members>Supply__c.Total_Cost__c</members>
+		<members>Supply__c.Unit_Cost__c</members>
+		<members>Trail__c.Description__c</members>
+		<members>Trail__c.Distance__c</members>
+		<members>Trail__c.Last_Inspection_Date__c</members>
+		<members>User.DB_Region__c</members>
+		<members>myV2MOM__Measure_Team__c.myV2MOM__Current_Value__c</members>
+		<members>myV2MOM__Measure_Team__c.myV2MOM__MeasureTeamChatFeedId__c</members>
+		<members>myV2MOM__Measure_Team__c.myV2MOM__Measure__c</members>
+		<members>myV2MOM__Measure_Team__c.myV2MOM__Member__c</members>
+		<members>myV2MOM__Measure_Team__c.myV2MOM__Percentage__c</members>
+		<members>myV2MOM__Measure_Team__c.myV2MOM__Status__c</members>
+		<members>myV2MOM__Measure_Team__c.myV2MOM__Target_Value__c</members>
+		<members>myV2MOM__Measure_Team__c.myV2MOM__Type__c</members>
+		<members>myV2MOM__Measure__c.myV2MOM__Assigned_Current_Value__c</members>
+		<members>myV2MOM__Measure__c.myV2MOM__Comments__c</members>
+		<members>myV2MOM__Measure__c.myV2MOM__Completion_By_Date__c</members>
+		<members>myV2MOM__Measure__c.myV2MOM__Completion_By_Quarter__c</members>
+		<members>myV2MOM__Measure__c.myV2MOM__Current_Value__c</members>
+		<members>myV2MOM__Measure__c.myV2MOM__MeasureChatFeedId__c</members>
+		<members>myV2MOM__Measure__c.myV2MOM__Measure_Team_Member_Count__c</members>
+		<members>myV2MOM__Measure__c.myV2MOM__Method__c</members>
+		<members>myV2MOM__Measure__c.myV2MOM__Obstacles__c</members>
+		<members>myV2MOM__Measure__c.myV2MOM__Priority__c</members>
+		<members>myV2MOM__Measure__c.myV2MOM__Q1_Completion__c</members>
+		<members>myV2MOM__Measure__c.myV2MOM__Q1_Target__c</members>
+		<members>myV2MOM__Measure__c.myV2MOM__Q1__c</members>
+		<members>myV2MOM__Measure__c.myV2MOM__Q2_Completion__c</members>
+		<members>myV2MOM__Measure__c.myV2MOM__Q2_Target__c</members>
+		<members>myV2MOM__Measure__c.myV2MOM__Q2__c</members>
+		<members>myV2MOM__Measure__c.myV2MOM__Q3_Completion__c</members>
+		<members>myV2MOM__Measure__c.myV2MOM__Q3_Target__c</members>
+		<members>myV2MOM__Measure__c.myV2MOM__Q3__c</members>
+		<members>myV2MOM__Measure__c.myV2MOM__Q4_Completion__c</members>
+		<members>myV2MOM__Measure__c.myV2MOM__Q4_Target__c</members>
+		<members>myV2MOM__Measure__c.myV2MOM__Q4__c</members>
+		<members>myV2MOM__Measure__c.myV2MOM__Split_By_Quarter__c</members>
+		<members>myV2MOM__Measure__c.myV2MOM__Status__c</members>
+		<members>myV2MOM__Measure__c.myV2MOM__Target_Value__c</members>
+		<members>myV2MOM__Measure__c.myV2MOM__Total_Current_Value__c</members>
+		<members>myV2MOM__Measure__c.myV2MOM__Track_Progress_By__c</members>
+		<members>myV2MOM__Method__c.myV2MOM__Description__c</members>
+		<members>myV2MOM__Method__c.myV2MOM__Order__c</members>
+		<members>myV2MOM__Method__c.myV2MOM__V2MOM__c</members>
+		<members>myV2MOM__V2MOM__c.myV2MOM__FY_Year__c</members>
+		<members>myV2MOM__V2MOM__c.myV2MOM__Published_Date__c</members>
+		<members>myV2MOM__V2MOM__c.myV2MOM__Status__c</members>
+		<members>myV2MOM__V2MOM__c.myV2MOM__User__c</members>
+		<members>myV2MOM__V2MOM__c.myV2MOM__Values__c</members>
+		<members>myV2MOM__V2MOM__c.myV2MOM__Vision__c</members>
+		<members>trailheadapp__Badge__c.trailheadapp__API_Name__c</members>
+		<members>trailheadapp__Badge__c.trailheadapp__Archived__c</members>
+		<members>trailheadapp__Badge__c.trailheadapp__Badge_Icon__c</members>
+		<members>trailheadapp__Badge__c.trailheadapp__Built_Date__c</members>
+		<members>trailheadapp__Badge__c.trailheadapp__Created_At__c</members>
+		<members>trailheadapp__Badge__c.trailheadapp__Description__c</members>
+		<members>trailheadapp__Badge__c.trailheadapp__External_Id__c</members>
+		<members>trailheadapp__Badge__c.trailheadapp__Icon__c</members>
+		<members>trailheadapp__Badge__c.trailheadapp__Level__c</members>
+		<members>trailheadapp__Badge__c.trailheadapp__Namespace__c</members>
+		<members>trailheadapp__Badge__c.trailheadapp__Products__c</members>
+		<members>trailheadapp__Badge__c.trailheadapp__Roles__c</members>
+		<members>trailheadapp__Badge__c.trailheadapp__Tags__c</members>
+		<members>trailheadapp__Badge__c.trailheadapp__Total_Badges_Awarded__c</members>
+		<members>trailheadapp__Badge__c.trailheadapp__Total_Badges_In_Progress__c</members>
+		<members>trailheadapp__Badge__c.trailheadapp__Type__c</members>
+		<members>trailheadapp__Badge__c.trailheadapp__URL__c</members>
+		<members>trailheadapp__Config__c.trailheadapp__Custom_Domain__c</members>
+		<members>trailheadapp__Config__c.trailheadapp__Debug_Level__c</members>
+		<members>trailheadapp__Config__c.trailheadapp__ExtraSyncsPerDay__c</members>
+		<members>trailheadapp__Config__c.trailheadapp__License_Types__c</members>
+		<members>trailheadapp__Config__c.trailheadapp__Override_API_Endpoint__c</members>
+		<members>trailheadapp__Config__c.trailheadapp__Override_API_Key__c</members>
+		<members>trailheadapp__Config__c.trailheadapp__Password__c</members>
+		<members>trailheadapp__Config__c.trailheadapp__Sandbox_Password__c</members>
+		<members>trailheadapp__Config__c.trailheadapp__Sandbox_Security_Token__c</members>
+		<members>trailheadapp__Config__c.trailheadapp__Sandbox_Username__c</members>
+		<members>trailheadapp__Config__c.trailheadapp__Security_Token__c</members>
+		<members>trailheadapp__Config__c.trailheadapp__Username__c</members>
+		<members>trailheadapp__Config__c.trailheadapp__ubBadgeSize__c</members>
+		<members>trailheadapp__Debug_Log__c.trailheadapp__Class__c</members>
+		<members>trailheadapp__Debug_Log__c.trailheadapp__Datetime__c</members>
+		<members>trailheadapp__Debug_Log__c.trailheadapp__Message__c</members>
+		<members>trailheadapp__Debug_Log__c.trailheadapp__Method__c</members>
+		<members>trailheadapp__Debug_Log__c.trailheadapp__Severity__c</members>
+		<members>trailheadapp__Debug_Log__c.trailheadapp__Transaction__c</members>
+		<members>trailheadapp__Setting__mdt.trailheadapp__API_Endpoint__c</members>
+		<members>trailheadapp__Setting__mdt.trailheadapp__API_Key__c</members>
+		<members>trailheadapp__Setting__mdt.trailheadapp__Client_ID__c</members>
+		<members>trailheadapp__Setting__mdt.trailheadapp__Client_Secret__c</members>
+		<members>trailheadapp__Setting__mdt.trailheadapp__Public_Namespace__c</members>
+		<members>trailheadapp__Trail__c.trailheadapp__API_Name__c</members>
+		<members>trailheadapp__Trail__c.trailheadapp__Archived__c</members>
+		<members>trailheadapp__Trail__c.trailheadapp__Badge_Icon__c</members>
+		<members>trailheadapp__Trail__c.trailheadapp__Created_At__c</members>
+		<members>trailheadapp__Trail__c.trailheadapp__Description__c</members>
+		<members>trailheadapp__Trail__c.trailheadapp__External_Id__c</members>
+		<members>trailheadapp__Trail__c.trailheadapp__Icon__c</members>
+		<members>trailheadapp__Trail__c.trailheadapp__Level__c</members>
+		<members>trailheadapp__Trail__c.trailheadapp__Namespace__c</members>
+		<members>trailheadapp__Trail__c.trailheadapp__Products__c</members>
+		<members>trailheadapp__Trail__c.trailheadapp__Roles__c</members>
+		<members>trailheadapp__Trail__c.trailheadapp__Tags__c</members>
+		<members>trailheadapp__Trail__c.trailheadapp__URL__c</members>
+		<members>trailheadapp__Trailhead_User_Data__c.trailheadapp__Avatar__c</members>
+		<members>trailheadapp__Trailhead_User_Data__c.trailheadapp__External_Id__c</members>
+		<members>trailheadapp__Trailhead_User_Data__c.trailheadapp__Profile_URL__c</members>
+		<members>trailheadapp__Trailhead_User_Data__c.trailheadapp__Profile_Visibility__c</members>
+		<members>trailheadapp__Trailhead_User_Data__c.trailheadapp__Rank__c</members>
+		<members>trailheadapp__Trailhead_User_Data__c.trailheadapp__Total_Points__c</members>
+		<members>trailheadapp__Trailhead_User_Data__c.trailheadapp__User__c</members>
+		<members>trailheadapp__Trailmix_Assignment__c.trailheadapp__Due_At__c</members>
+		<members>trailheadapp__Trailmix_Assignment__c.trailheadapp__Due_Datetime__c</members>
+		<members>trailheadapp__Trailmix_Assignment__c.trailheadapp__Status__c</members>
+		<members>trailheadapp__Trailmix_Assignment__c.trailheadapp__Trailmix__c</members>
+		<members>trailheadapp__Trailmix_Assignment__c.trailheadapp__User__c</members>
+		<members>trailheadapp__Trailmix__c.trailheadapp__Archived__c</members>
+		<members>trailheadapp__Trailmix__c.trailheadapp__Created_At__c</members>
+		<members>trailheadapp__Trailmix__c.trailheadapp__Created_By_Profile__c</members>
+		<members>trailheadapp__Trailmix__c.trailheadapp__Creator_TH_SFID__c</members>
+		<members>trailheadapp__Trailmix__c.trailheadapp__Description__c</members>
+		<members>trailheadapp__Trailmix__c.trailheadapp__External_Id__c</members>
+		<members>trailheadapp__Trailmix__c.trailheadapp__Featured__c</members>
+		<members>trailheadapp__Trailmix__c.trailheadapp__Slug__c</members>
+		<members>trailheadapp__Trailmix__c.trailheadapp__URL__c</members>
+		<members>trailheadapp__Trailmix__c.trailheadapp__Updated_At__c</members>
+		<members>trailheadapp__User_Badge__c.trailheadapp__Archived__c</members>
+		<members>trailheadapp__User_Badge__c.trailheadapp__Assigned_Date__c</members>
+		<members>trailheadapp__User_Badge__c.trailheadapp__Assigned_to_Complete__c</members>
+		<members>trailheadapp__User_Badge__c.trailheadapp__Badge_Icon__c</members>
+		<members>trailheadapp__User_Badge__c.trailheadapp__Badge__c</members>
+		<members>trailheadapp__User_Badge__c.trailheadapp__Due_Date__c</members>
+		<members>trailheadapp__User_Badge__c.trailheadapp__External_ID__c</members>
+		<members>trailheadapp__User_Badge__c.trailheadapp__Finished_Date__c</members>
+		<members>trailheadapp__User_Badge__c.trailheadapp__First_Attempted_Date__c</members>
+		<members>trailheadapp__User_Badge__c.trailheadapp__Last_Attempted_Date__c</members>
+		<members>trailheadapp__User_Badge__c.trailheadapp__Status__c</members>
+		<members>trailheadapp__User_Badge__c.trailheadapp__URL__c</members>
+		<members>trailheadapp__User_Badge__c.trailheadapp__User__c</members>
+		<members>trailheadapp__User_Trailmix__c.trailheadapp__Assigned_At__c</members>
+		<members>trailheadapp__User_Trailmix__c.trailheadapp__Completed_At__c</members>
+		<members>trailheadapp__User_Trailmix__c.trailheadapp__Due_At__c</members>
+		<members>trailheadapp__User_Trailmix__c.trailheadapp__External_Id__c</members>
+		<members>trailheadapp__User_Trailmix__c.trailheadapp__First_Attempted_At__c</members>
+		<members>trailheadapp__User_Trailmix__c.trailheadapp__Last_Attempted_At__c</members>
+		<members>trailheadapp__User_Trailmix__c.trailheadapp__Status__c</members>
+		<members>trailheadapp__User_Trailmix__c.trailheadapp__Trailmix__c</members>
+		<members>trailheadapp__User_Trailmix__c.trailheadapp__User__c</members>
+		<name>CustomField</name>
+	</types>
+	<types>
 		<members>*</members>
 		<name>CustomHelpMenuSection</name>
+	</types>
+	<types>
+		<members>trailheadapp__AbortingProcesses</members>
+		<members>trailheadapp__About_Ranks</members>
+		<members>trailheadapp__AddingJobToQueue</members>
+		<members>trailheadapp__AddingJobToQueue2</members>
+		<members>trailheadapp__ApiErrorResponse</members>
+		<members>trailheadapp__Assign_Users_Search_Results</members>
+		<members>trailheadapp__Assign_Users_Search_Users</members>
+		<members>trailheadapp__Assign_Users_Select_Due_Date</members>
+		<members>trailheadapp__Assign_Users_Selected_Users</members>
+		<members>trailheadapp__Assign_Users_Subtitle</members>
+		<members>trailheadapp__Assigned</members>
+		<members>trailheadapp__AuthError</members>
+		<members>trailheadapp__Back_Button</members>
+		<members>trailheadapp__Badges_Earned</members>
+		<members>trailheadapp__Badges_Summary</members>
+		<members>trailheadapp__Cancel_Button</members>
+		<members>trailheadapp__CheckDebugLogs</members>
+		<members>trailheadapp__Completed</members>
+		<members>trailheadapp__CouldNotDelete</members>
+		<members>trailheadapp__CouldNotLoad</members>
+		<members>trailheadapp__Custom_Domain_Error</members>
+		<members>trailheadapp__DeletingUserAssignment</members>
+		<members>trailheadapp__DownloadIcons</members>
+		<members>trailheadapp__E</members>
+		<members>trailheadapp__EnqueueingJobTrailmixAssignments</members>
+		<members>trailheadapp__Error</members>
+		<members>trailheadapp__ErrorDeleting</members>
+		<members>trailheadapp__ErrorUpserting</members>
+		<members>trailheadapp__ErrorUpsertingBatch</members>
+		<members>trailheadapp__Error_Log_Level</members>
+		<members>trailheadapp__FieldDoesNotExistOnObject</members>
+		<members>trailheadapp__FinishDownloadIcons</members>
+		<members>trailheadapp__FinishSync</members>
+		<members>trailheadapp__FinishedCreating</members>
+		<members>trailheadapp__FinishedLoading</members>
+		<members>trailheadapp__FoundMatchingUsers</members>
+		<members>trailheadapp__FoundUsers</members>
+		<members>trailheadapp__GeneralInformation</members>
+		<members>trailheadapp__In_Progress</members>
+		<members>trailheadapp__Info_Log_Level</members>
+		<members>trailheadapp__InsertingRecords</members>
+		<members>trailheadapp__LTypeCPM</members>
+		<members>trailheadapp__LTypeCPU</members>
+		<members>trailheadapp__LTypeCSNOnly</members>
+		<members>trailheadapp__LTypeChatterFree</members>
+		<members>trailheadapp__LTypeGuest</members>
+		<members>trailheadapp__LTypeHBP</members>
+		<members>trailheadapp__LTypePartner</members>
+		<members>trailheadapp__LTypeSelfPortal</members>
+		<members>trailheadapp__LTypeStandard</members>
+		<members>trailheadapp__LicenseRequiredError</members>
+		<members>trailheadapp__LineCause</members>
+		<members>trailheadapp__LogginSet</members>
+		<members>trailheadapp__LoginCredentialsSuccess</members>
+		<members>trailheadapp__LoginCredentialsSuccessNoCheck</members>
+		<members>trailheadapp__LoginFail</members>
+		<members>trailheadapp__LoginNoAccess</members>
+		<members>trailheadapp__LoginSuccess</members>
+		<members>trailheadapp__Next_Button</members>
+		<members>trailheadapp__NoAccessField</members>
+		<members>trailheadapp__NoAccessObject</members>
+		<members>trailheadapp__NoCreateAccessField</members>
+		<members>trailheadapp__NoCreateAccessObject</members>
+		<members>trailheadapp__NoCreateOrUpdateAccessField</members>
+		<members>trailheadapp__NoCreateOrUpdateAccessObject</members>
+		<members>trailheadapp__NoMoreJobs</members>
+		<members>trailheadapp__NoUpdateAccess</members>
+		<members>trailheadapp__NoUpdateAccessField</members>
+		<members>trailheadapp__NoUserSelectedError</members>
+		<members>trailheadapp__NoUsers</members>
+		<members>trailheadapp__NoVersionError</members>
+		<members>trailheadapp__No_Log_Level</members>
+		<members>trailheadapp__NumberOfRecordsUpserted</members>
+		<members>trailheadapp__OrgSetup</members>
+		<members>trailheadapp__OverrideApiKey</members>
+		<members>trailheadapp__PermissionsError</members>
+		<members>trailheadapp__ProcessingObjectJob</members>
+		<members>trailheadapp__ProcessingRecords</members>
+		<members>trailheadapp__ReachNextLevel</members>
+		<members>trailheadapp__Save_Button</members>
+		<members>trailheadapp__Search_Button</members>
+		<members>trailheadapp__Show_More</members>
+		<members>trailheadapp__StartLogin</members>
+		<members>trailheadapp__StatusCodeAndBody</members>
+		<members>trailheadapp__StoppedAfterErrors</members>
+		<members>trailheadapp__Submit_Button</members>
+		<members>trailheadapp__Success</members>
+		<members>trailheadapp__SuccessfullyDeleted</members>
+		<members>trailheadapp__SyncAlreadyScheduledError</members>
+		<members>trailheadapp__SyncCredentialError</members>
+		<members>trailheadapp__SyncScheduled</members>
+		<members>trailheadapp__Test_Login_Fail</members>
+		<members>trailheadapp__Trailblazer_Rank</members>
+		<members>trailheadapp__TrailheadUserFound</members>
+		<members>trailheadapp__Trailhead_Setup_Credentials_and_Setting_Authentication_Description</members>
+		<members>trailheadapp__Trailhead_Setup_Credentials_and_Setting_Custom_Domain_Description</members>
+		<members>trailheadapp__Trailhead_Setup_Credentials_and_Setting_Logging_Description</members>
+		<members>trailheadapp__Trailhead_Setup_Credentials_and_Settings</members>
+		<members>trailheadapp__Trailhead_Setup_Debug_Level</members>
+		<members>trailheadapp__Trailhead_Setup_Description</members>
+		<members>trailheadapp__Trailhead_Setup_License_Types</members>
+		<members>trailheadapp__Trailhead_Setup_Logging</members>
+		<members>trailheadapp__Trailhead_Setup_Scheduled_Task_Description</members>
+		<members>trailheadapp__Trailhead_Setup_Settings</members>
+		<members>trailheadapp__Trailhead_Setup_Subtitle</members>
+		<members>trailheadapp__Trailhead_Setup_Synchronization_Settings</members>
+		<members>trailheadapp__Trailhead_Setup_Title</members>
+		<members>trailheadapp__TrailmixAssignSuccess</members>
+		<members>trailheadapp__TrailmixAssignmentDeleted</members>
+		<members>trailheadapp__TrailmixAssignmentInProgress</members>
+		<members>trailheadapp__Unassign_Users_Description</members>
+		<members>trailheadapp__Unassign_Users_Subtitle</members>
+		<members>trailheadapp__Unknown_Error</members>
+		<members>trailheadapp__Update_Error</members>
+		<members>trailheadapp__UpdatingRecords</members>
+		<members>trailheadapp__UpsertError</members>
+		<members>trailheadapp__UpsertingRecords</members>
+		<members>trailheadapp__UpsertingRecordsBatch</members>
+		<members>trailheadapp__UseOverrideApiEndpoint</members>
+		<members>trailheadapp__User_Name</members>
+		<members>trailheadapp__User_Title</members>
+		<members>trailheadapp__UsingCustomDomain</members>
+		<members>trailheadapp__View_All</members>
+		<members>trailheadapp__ZeroUserBadgesLoaded</members>
+		<members>trailheadapp__badge</members>
+		<members>trailheadapp__badges</members>
+		<name>CustomLabel</name>
 	</types>
 	<types>
 		<members>*</members>
@@ -353,12 +753,34 @@
 		<name>CustomTab</name>
 	</types>
 	<types>
+		<members>Chatter_Usage_Dashboards/Chatter_Usage_Dashboard</members>
+		<members>DataQualityAnalysis/AccountContactOpportunityDataQuality</members>
+		<members>DataQualityAnalysis/CampaignLeadActivityDataQuality</members>
+		<members>DataQualityAnalysis/CaseContractDataQuality</members>
+		<members>DataQualityAnalysis/HighLevelDataQualityAnalysis</members>
+		<members>InAppGuidancePromptPackageV1/JGIgJwhjpdDvYTYwsyfuAPgCBCrarN</members>
+		<members>InAppGuidanceWalkthroughPackageV104tB0000000ZOYN/dBtcjyOjSzUIeCBLKawmUEGIaVGhDW04tB0000000ZOYN</members>
+		<members>Salesforce_Adoption_Dashboards/X1_User_Adoption_Logins</members>
+		<members>Salesforce_Adoption_Dashboards/X2_Key_Feature_Adoption</members>
+		<members>Salesforce_Adoption_Dashboards/X3_Sales_Marketing_Adoption</members>
+		<members>trailheadapp__Trailhead_Dashboards/trailheadapp__Trailhead_Overview</members>
+		<members>trailheadapp__Trailhead_Dashboards/trailheadapp__Trailhead_for_Sales_Org</members>
+		<members>trailheadapp__Trailhead_Dashboards/trailheadapp__Trailhead_for_Service_Team</members>
+		<members>trailheadapp__Trailhead_Dashboards/trailheadapp__Trailmix_Overview</members>
+		<name>Dashboard</name>
+	</types>
+	<types>
 		<members>*</members>
 		<name>DataCategoryGroup</name>
 	</types>
 	<types>
 		<members>*</members>
 		<name>DelegateGroup</name>
+	</types>
+	<types>
+		<members>trailheadapp__Trailhead/trailheadapp__Trailhead_Flogo.png</members>
+		<members>trailheadapp__Trailhead/trailheadapp__trailheadLogo_png.png</members>
+		<name>Document</name>
 	</types>
 	<types>
 		<members>*</members>
@@ -373,12 +795,40 @@
 		<name>EmailServicesFunction</name>
 	</types>
 	<types>
+		<members>Customer_Support/Public_Facing_General</members>
+		<members>myV2MOM__V2MOM_Templates/myV2MOM__V2MOM_Quarterly_Reminder</members>
+		<members>unfiled$public/Aprobar_descuento_de_oportunidad</members>
+		<members>unfiled$public/Embed_a_Survey_Link</members>
+		<members>unfiled$public/Embed_a_Survey_Question</members>
+		<members>unfiled$public/MarketingProductInquiryResponse</members>
+		<members>unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE</members>
+		<members>unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE</members>
+		<members>unfiled$public/SUPPORTSelfServiceResetPasswordSAMPLE</members>
+		<members>unfiled$public/SalesNewCustomerEmail</members>
+		<members>unfiled$public/SupportCaseAssignmentNotification</members>
+		<members>unfiled$public/SupportCaseCreatedPhoneInquiries</members>
+		<members>unfiled$public/SupportCaseCreatedWebInquiries</members>
+		<members>unfiled$public/SupportCaseResponse</members>
+		<members>unfiled$public/SupportEscalatedCaseNotification</members>
+		<members>unfiled$public/SupportEscalatedCaseReassignment</members>
+		<members>unfiled$public/SupportSelfServiceNewLoginandPassword</members>
+		<members>unfiled$public/SupportSelfServiceResetPassword</members>
+		<members>unfiled$public/Template_Email</members>
+		<name>EmailTemplate</name>
+	</types>
+	<types>
 		<members>*</members>
 		<name>EntitlementProcess</name>
 	</types>
 	<types>
 		<members>*</members>
 		<name>EntitlementTemplate</name>
+	</types>
+	<types>
+		<members>Case.Booyah</members>
+		<members>Case.Silver support</members>
+		<members>Case.Standard</members>
+		<name>EscalationRule</name>
 	</types>
 	<types>
 		<members>Case</members>
@@ -391,6 +841,10 @@
 	<types>
 		<members>*</members>
 		<name>ExternalServiceRegistration</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>FieldSet</name>
 	</types>
 	<types>
 		<members>*</members>
@@ -467,6 +921,166 @@
 		<name>LightningOnboardingConfig</name>
 	</types>
 	<types>
+		<members>Account.AllAccounts</members>
+		<members>Account.MyAccounts</members>
+		<members>Account.NewLastWeek</members>
+		<members>Account.NewThisWeek</members>
+		<members>Account.PlatinumandGoldSLACustomers</members>
+		<members>ActiveScratchOrg.All_Active_Scratch_Orgs</members>
+		<members>ActiveScratchOrg.My_Active_Scratch_Orgs</members>
+		<members>Activity.AllActivities</members>
+		<members>Activity.MyActivities</members>
+		<members>Activity.TodaysTasks</members>
+		<members>Activity.UpcomingEvents</members>
+		<members>Animal__c.All</members>
+		<members>Asset.AllAssets</members>
+		<members>AssetAction.AssetAction</members>
+		<members>AssetActionSource.AssetActionSource</members>
+		<members>AssetStatePeriod.AssetStatePeriod</members>
+		<members>Author__c.All</members>
+		<members>AuthorizationForm.All_AuthorizationForms</members>
+		<members>AuthorizationFormConsent.All_AuthorizationFormConsents</members>
+		<members>AuthorizationFormDataUse.All_AuthorizationFormDataUses</members>
+		<members>AuthorizationFormText.All_AuthorizationFormText</members>
+		<members>Battle_Station__c.All</members>
+		<members>Book__c.All</members>
+		<members>BusinessBrand.All_BusinessBrands</members>
+		<members>Campaign.AllActiveCampaigns</members>
+		<members>Campaign.MyActiveCampaigns</members>
+		<members>CardPaymentMethod.CardPaymentMethod</members>
+		<members>Case.AllClosedCases</members>
+		<members>Case.AllOpenCases</members>
+		<members>Case.Billing_Support_Agents_Case</members>
+		<members>Case.Booyah_Case</members>
+		<members>Case.MyCases</members>
+		<members>Case.MyOpenCases</members>
+		<members>Case.Platinum_Support_Case</members>
+		<members>Case.Service_Case_Case</members>
+		<members>CollaborationGroup.All_ChatterGroups</members>
+		<members>CommSubscription.All_CommSubscriptions</members>
+		<members>CommSubscriptionChannelType.All_CommSubscriptionChannelTypes</members>
+		<members>CommSubscriptionConsent.All_CommSubscriptionConsents</members>
+		<members>CommSubscriptionTiming.All_CommSubscriptionTimings</members>
+		<members>Concert__c.All</members>
+		<members>ConsumptionSchedule.All_ConsumptionSchedules</members>
+		<members>ConsumptionSchedule.My_ConsumptionSchedules</members>
+		<members>Contact.AllContacts</members>
+		<members>Contact.All_Recipes_Contacts</members>
+		<members>Contact.BirthdaysThisMonth</members>
+		<members>Contact.MyContacts</members>
+		<members>Contact.NewLastWeek</members>
+		<members>Contact.NewThisWeek</members>
+		<members>ContactPointConsent.All_ContactPointConsents</members>
+		<members>ContactPointTypeConsent.All_ContactPointTypeConsents</members>
+		<members>ContactRequest.My_ContactRequests</members>
+		<members>Contract.AllActivatedContracts</members>
+		<members>Contract.AllContracts</members>
+		<members>Contract.AllDraftContracts</members>
+		<members>Contract.AllInApprovalContracts</members>
+		<members>Contract.MyActivatedContracts</members>
+		<members>Contract.MyDraftContracts</members>
+		<members>Contract.MyInApprovalContracts</members>
+		<members>CreditMemo.mine</members>
+		<members>Customer.All_Customers</members>
+		<members>Customer_Satisfaction_Survey__c.All</members>
+		<members>DataUseLegalBasis.All_DataUseLegalBases</members>
+		<members>DataUsePurpose.All_DataUsePurposes</members>
+		<members>DigitalWallet.DigitalWallet</members>
+		<members>Drink_Order__c.All</members>
+		<members>EngagementChannelType.All_EngagementChannelTypes</members>
+		<members>Entitlement.All_Entitlements</members>
+		<members>Event.MyRecentEvents</members>
+		<members>Event.MyTeamsRecentEvents</members>
+		<members>Event.MyTeamsUpcomingEvents</members>
+		<members>Event.MyUpcomingEvents</members>
+		<members>Event.TodaysAgenda</members>
+		<members>FinanceBalanceSnapshot.mine</members>
+		<members>FinanceTransaction.mine</members>
+		<members>FlowOrchestrationInstance.All_Orchestration_Instances</members>
+		<members>FlowOrchestrationWorkItem.ALL_Open_Work_Items</members>
+		<members>FlowOrchestrationWorkItem.All_Work_Items</members>
+		<members>Fundraiser__c.All</members>
+		<members>Hotel__c.All</members>
+		<members>Idea.Ideas_Last_7_Days</members>
+		<members>Invoice.mine</members>
+		<members>Knowledge__kav.archived_articles</members>
+		<members>Knowledge__kav.draft_articles</members>
+		<members>Knowledge__kav.published_articles</members>
+		<members>Lead.AllOpenLeads</members>
+		<members>Lead.MyUnreadLeads</members>
+		<members>Lead.TodaysLeads</members>
+		<members>Lead.ViewCustom1</members>
+		<members>Lead.ViewCustom2</members>
+		<members>LegalEntity.mine</members>
+		<members>LiveChatTranscript.Service_Chat_LiveChatTranscript</members>
+		<members>NamespaceRegistry.All_Namespace_Registries</members>
+		<members>Opportunity.AllOpportunities</members>
+		<members>Opportunity.ClosingNextMonth</members>
+		<members>Opportunity.ClosingThisMonth</members>
+		<members>Opportunity.Default_Opportunity_Pipeline</members>
+		<members>Opportunity.MyOpportunities</members>
+		<members>Opportunity.NewLastWeek</members>
+		<members>Opportunity.NewThisWeek</members>
+		<members>Opportunity.Private</members>
+		<members>Opportunity.Won</members>
+		<members>Order.AllActivatedOrders</members>
+		<members>Order.AllDraftOrders</members>
+		<members>Order.AllOrders</members>
+		<members>PartyConsent.All_PartyConsents</members>
+		<members>Payment.Payment</members>
+		<members>PaymentAuthorization.PaymentAuthorization</members>
+		<members>PaymentGateway.PaymentGateway</members>
+		<members>PaymentGroup.PaymentGroup</members>
+		<members>PaymentLineInvoice.PaymentLineInvoice</members>
+		<members>ProcessException.all_process_exceptions</members>
+		<members>Product2.AllProducts</members>
+		<members>Recommendation__c.All</members>
+		<members>Refund.Refund</members>
+		<members>RefundLinePayment.RefundLinePayment</members>
+		<members>Resource__c.All</members>
+		<members>Scorecard.AllScorecards</members>
+		<members>Scorecard.MyScorecards</members>
+		<members>ScratchOrgInfo.All_Scratch_Org_Infos</members>
+		<members>ScratchOrgInfo.My_Scratch_Org_Infos</members>
+		<members>Seller.All_Sellers</members>
+		<members>ServiceAppointmentGroup.All_ServiceAppointmentGroups</members>
+		<members>ServiceContract.All_ServiceContracts</members>
+		<members>Services__c.All</members>
+		<members>Session__c.All</members>
+		<members>Solution.AllReviewedSolutions</members>
+		<members>Solution.AllUnreviewedSolutions</members>
+		<members>Speaker__c.All</members>
+		<members>Supply__c.All</members>
+		<members>Survey.My Surveys</members>
+		<members>Task.CompletedTasks</members>
+		<members>Task.DelegatedTasks</members>
+		<members>Task.OpenTasks</members>
+		<members>Task.OverdueTasks</members>
+		<members>Task.RecurringTasks</members>
+		<members>Task.TodaysTasks</members>
+		<members>Task.UnscheduledTasks</members>
+		<members>User.ActiveUsers</members>
+		<members>User.AdminUsers</members>
+		<members>User.AllUsers</members>
+		<members>Vehicle__c.All</members>
+		<members>Waypoint__c.All</members>
+		<members>WorkProcedure.All_Workprocedures</members>
+		<members>WorkProcedureStep.All_WorkProcedureSteps</members>
+		<members>myV2MOM__Measure_Team__c.myV2MOM__All</members>
+		<members>myV2MOM__Measure__c.myV2MOM__All</members>
+		<members>myV2MOM__Method__c.myV2MOM__All</members>
+		<members>myV2MOM__V2MOM__c.myV2MOM__All</members>
+		<members>trailheadapp__Badge__c.trailheadapp__All</members>
+		<members>trailheadapp__Badge__c.trailheadapp__All_Modules</members>
+		<members>trailheadapp__Badge__c.trailheadapp__All_Projects</members>
+		<members>trailheadapp__Badge__c.trailheadapp__All_Superbadges</members>
+		<members>trailheadapp__Trail__c.trailheadapp__All</members>
+		<members>trailheadapp__Trailhead_User_Data__c.trailheadapp__All</members>
+		<members>trailheadapp__Trailmix__c.trailheadapp__All</members>
+		<members>trailheadapp__User_Badge__c.trailheadapp__All</members>
+		<name>ListView</name>
+	</types>
+	<types>
 		<members>*</members>
 		<name>LiveChatAgentConfig</name>
 	</types>
@@ -487,6 +1101,12 @@
 		<members>cms_image</members>
 		<members>news</members>
 		<name>ManagedContentType</name>
+	</types>
+	<types>
+		<members>Account.Standard_Account_Match_Rule_v1_0</members>
+		<members>Contact.Standard_Contact_Match_Rule_v1_1</members>
+		<members>Lead.Standard_Lead_Match_Rule_v1_0</members>
+		<name>MatchingRule</name>
 	</types>
 	<types>
 		<members>*</members>
@@ -589,6 +1209,15 @@
 		<name>RecordActionDeployment</name>
 	</types>
 	<types>
+		<members>Case.Billing</members>
+		<members>Case.Product_Support</members>
+		<members>Event.Showing</members>
+		<members>Metric.Completion</members>
+		<members>Metric.Progress</members>
+		<members>Opportunity.Record_type</members>
+		<name>RecordType</name>
+	</types>
+	<types>
 		<members>*</members>
 		<name>RedirectWhitelistUrl</name>
 	</types>
@@ -599,6 +1228,148 @@
 		<members>trailheadapp__Trailhead_API</members>
 		<members>trailheadapp__Trailhead_Icons</members>
 		<name>RemoteSiteSetting</name>
+	</types>
+	<types>
+		<members>Chatter_Usage/Chatter_Group_Feeds_last_90_days</members>
+		<members>Chatter_Usage/Chatter_Posts_last_90_days</members>
+		<members>Chatter_Usage/GUS_Chatter</members>
+		<members>Chatter_Usage/GUS_Chatter_Feed_Item_Type_last_30d</members>
+		<members>Chatter_Usage/GUS_Chatter_Group_posts_x_User</members>
+		<members>Chatter_Usage/GUS_Chatter_Groups_creation_by_Access</members>
+		<members>Chatter_Usage/GUS_Chatter_Groups_creation_by_date</members>
+		<members>Chatter_Usage/GUS_Chatter_Groups_of_Members</members>
+		<members>Chatter_Usage/GUS_Chatter_User_of_Content_Posts</members>
+		<members>Chatter_Usage/GUS_Chatter_User_of_Posts</members>
+		<members>Chatter_Usage/Groups_Comments</members>
+		<members>Chatter_Usage/Users_with_Followers</members>
+		<members>DB_Adoption/Active_User_Logins</members>
+		<members>DB_Adoption/Active_Users</members>
+		<members>DB_Adoption/DB_Adoption</members>
+		<members>DB_Adoption/DB_Adoption_ACCOUNTS_w_o_Fields_Pop</members>
+		<members>DB_Adoption/DB_Adoption_ACTIVITIES_Wall_of_Fame</members>
+		<members>DB_Adoption/DB_Adoption_ACTIVITIES_Wall_of_Shame</members>
+		<members>DB_Adoption/DB_Adoption_CONTACTS_wO_Fields_Populated</members>
+		<members>DB_Adoption/DB_Adoption_Campaigns</members>
+		<members>DB_Adoption/DB_Adoption_Campaigns_Last_30_Days</members>
+		<members>DB_Adoption/DB_Adoption_Campaigns_by_Status</members>
+		<members>DB_Adoption/DB_Adoption_Count_of_Accounts</members>
+		<members>DB_Adoption/DB_Adoption_Count_of_LEADS</members>
+		<members>DB_Adoption/DB_Adoption_Count_of_OPPTYS</members>
+		<members>DB_Adoption/DB_Adoption_Count_of_OPPTYS_last_365</members>
+		<members>DB_Adoption/DB_Adoption_Count_of_all_CONTACTS</members>
+		<members>DB_Adoption/DB_Adoption_Funnel_Load_Rate</members>
+		<members>DB_Adoption/DB_Adoption_Last_Run_Reports</members>
+		<members>DB_Adoption/DB_Adoption_Lead_Abandonment</members>
+		<members>DB_Adoption/DB_Adoption_Leads_Converted_Last_365</members>
+		<members>DB_Adoption/DB_Adoption_Login_Wall_of_Fame</members>
+		<members>DB_Adoption/DB_Adoption_Login_Wall_of_Shame</members>
+		<members>DB_Adoption/DB_Adoption_Login_by_Department</members>
+		<members>DB_Adoption/DB_Adoption_Login_by_Region</members>
+		<members>DB_Adoption/DB_Adoption_Login_by_Role</members>
+		<members>DB_Adoption/DB_Adoption_Mass_Emails_Created</members>
+		<members>DB_Adoption/DB_Adoption_Neglected_Customers</members>
+		<members>DB_Adoption/DB_Adoption_Neglected_OPPTYS</members>
+		<members>DB_Adoption/DB_Adoption_Neglected_Prospects</members>
+		<members>DB_Adoption/DB_Adoption_New_ACTIVITIES_Trend</members>
+		<members>DB_Adoption/DB_Adoption_New_ACTIVITIES_last_30_Days</members>
+		<members>DB_Adoption/DB_Adoption_New_Accounts_Last_30_Days</members>
+		<members>DB_Adoption/DB_Adoption_New_Accounts_Trend</members>
+		<members>DB_Adoption/DB_Adoption_New_Contacts_Trend</members>
+		<members>DB_Adoption/DB_Adoption_New_Leads_Last_30_Days</members>
+		<members>DB_Adoption/DB_Adoption_New_Leads_Trend</members>
+		<members>DB_Adoption/DB_Adoption_New_OPPORTUNITIES_last_30</members>
+		<members>DB_Adoption/DB_Adoption_OPPORTUNITIES_Trend</members>
+		<members>DB_Adoption/DB_Adoption_OPPORTUNITY_Trend_Owner</members>
+		<members>DB_Adoption/DB_Adoption_OPPTYS_by_STAGE_entered</members>
+		<members>DB_Adoption/DB_Adoption_OPPTYS_w_No_Opp_Product</members>
+		<members>DB_Adoption/DB_Adoption_OPPTYS_wo_Fields_Populated</members>
+		<members>DB_Adoption/DB_Adoption_PROSPECT_w_Fields_Populated</members>
+		<members>DataQualityReports/AccountDataQualityDescriptions</members>
+		<members>DataQualityReports/AccountDataQualityScore</members>
+		<members>DataQualityReports/AccountOwnerDataQuality</members>
+		<members>DataQualityReports/ActivityAssignedOwnerDataQuality</members>
+		<members>DataQualityReports/ActivityDataQualityDescription</members>
+		<members>DataQualityReports/ActivityDataQualityScore</members>
+		<members>DataQualityReports/CampaignDataQualityDescription</members>
+		<members>DataQualityReports/CampaignDataQualityScore</members>
+		<members>DataQualityReports/CampaignOwnerDataQuality</members>
+		<members>DataQualityReports/CaseDataQualityDescription</members>
+		<members>DataQualityReports/CaseDataQualityScore</members>
+		<members>DataQualityReports/CaseOwnerDataQuality</members>
+		<members>DataQualityReports/ContactDataQualityDescriptions</members>
+		<members>DataQualityReports/ContactDataQualityScore</members>
+		<members>DataQualityReports/ContactOwnerDataQuality</members>
+		<members>DataQualityReports/ContractDataQualityDescription</members>
+		<members>DataQualityReports/ContractDataQualityScore</members>
+		<members>DataQualityReports/ContractOwnerDataQuality</members>
+		<members>DataQualityReports/LeadDataQualityDescription</members>
+		<members>DataQualityReports/LeadDataQualityScore</members>
+		<members>DataQualityReports/LeadOwnerDataQuality</members>
+		<members>DataQualityReports/OpportunityDataQualityDescription</members>
+		<members>DataQualityReports/OpportunityDataQualityScore</members>
+		<members>DataQualityReports/OpportunityOwnerDataQuality</members>
+		<members>InAppGuidancePromptPackage_V1/Overall_Engagement_by_Prompt_V1</members>
+		<members>InAppGuidancePromptPackage_V1/Prompt_Engagement_by_Type_V1</members>
+		<members>InAppGuidancePromptPackage_V1/Prompt_Engagement_by_User_V1</members>
+		<members>InAppGuidancePromptPackage_V1/Prompt_Last_Results_by_User_Profile_V1</members>
+		<members>InAppGuidancePromptPackage_V1/Prompt_Last_Results_by_User_Role_V1</members>
+		<members>InAppGuidancePromptPackage_V1/Prompt_Percent_Custom_Action_by_Profile_V1</members>
+		<members>InAppGuidancePromptPackage_V1/Prompt_Percent_Custom_Action_by_Role_V1</members>
+		<members>InAppGuidanceWalkthroughPackage_V1/Last_Results_by_Walkthrough_V1</members>
+		<members>InAppGuidanceWalkthroughPackage_V1/Percent_Action_Taken_by_Walkthrough_V1</members>
+		<members>InAppGuidanceWalkthroughPackage_V1/WT_Percent_Progress_by_Step_Count_V1</members>
+		<members>InAppGuidanceWalkthroughPackage_V1/WT_Percent_Progress_by_Walkthrough_V1</members>
+		<members>InAppGuidanceWalkthroughPackage_V1/WT_Reached_Last_Step_by_User_Profile_V1</members>
+		<members>InAppGuidanceWalkthroughPackage_V1/WT_Reached_Last_Step_by_User_Role_V1</members>
+		<members>InAppGuidanceWalkthroughPackage_V1/Walkthrough_Completion_by_User_V1</members>
+		<members>InAppGuidanceWalkthroughPackage_V1/Walkthrough_Error_Details_V1</members>
+		<members>InAppGuidanceWalkthroughPackage_V1/Walkthrough_Reached_Last_Step_Rate_by_WT_V1</members>
+		<members>InAppGuidanceWalkthroughPackage_V1/Walkthrough_Reached_Last_Step_by_Length_V1</members>
+		<members>trailheadapp__Trailhead_Reports/trailheadapp__Activities_with_Opportunities_all_time_cdR</members>
+		<members>trailheadapp__Trailhead_Reports/trailheadapp__All_Badges_By_User_Assigned</members>
+		<members>trailheadapp__Trailhead_Reports/trailheadapp__All_Trailhead_Badges</members>
+		<members>trailheadapp__Trailhead_Reports/trailheadapp__All_Trailhead_Badges_By_User</members>
+		<members>trailheadapp__Trailhead_Reports/trailheadapp__All_Trailhead_Badges_By_User1</members>
+		<members>trailheadapp__Trailhead_Reports/trailheadapp__All_Trailhead_Badges_By_User11</members>
+		<members>trailheadapp__Trailhead_Reports/trailheadapp__All_Trailhead_Badges_By_User12</members>
+		<members>trailheadapp__Trailhead_Reports/trailheadapp__Archived_Badge_Records</members>
+		<members>trailheadapp__Trailhead_Reports/trailheadapp__Archived_Trails</members>
+		<members>trailheadapp__Trailhead_Reports/trailheadapp__Archived_User_Badges</members>
+		<members>trailheadapp__Trailhead_Reports/trailheadapp__Assigned_Trailmixes</members>
+		<members>trailheadapp__Trailhead_Reports/trailheadapp__Assigned_Trailmixes1</members>
+		<members>trailheadapp__Trailhead_Reports/trailheadapp__Assigned_Trailmixes11</members>
+		<members>trailheadapp__Trailhead_Reports/trailheadapp__Assigned_Trailmixes111</members>
+		<members>trailheadapp__Trailhead_Reports/trailheadapp__Assigned_Trailmixes1111</members>
+		<members>trailheadapp__Trailhead_Reports/trailheadapp__Assigned_Trailmixes1112</members>
+		<members>trailheadapp__Trailhead_Reports/trailheadapp__Assigned_Trailmixes11121</members>
+		<members>trailheadapp__Trailhead_Reports/trailheadapp__Assigned_Trailmixes11122</members>
+		<members>trailheadapp__Trailhead_Reports/trailheadapp__Badge_Completion_Duration</members>
+		<members>trailheadapp__Trailhead_Reports/trailheadapp__Badge_Trend</members>
+		<members>trailheadapp__Trailhead_Reports/trailheadapp__Badges_Awarded_This_Week</members>
+		<members>trailheadapp__Trailhead_Reports/trailheadapp__Completed_Badges_for_User</members>
+		<members>trailheadapp__Trailhead_Reports/trailheadapp__Completed_Trailmixes</members>
+		<members>trailheadapp__Trailhead_Reports/trailheadapp__Completed_Trailmixes1</members>
+		<members>trailheadapp__Trailhead_Reports/trailheadapp__Completed_Trailmixes2</members>
+		<members>trailheadapp__Trailhead_Reports/trailheadapp__Debug_Logs</members>
+		<members>trailheadapp__Trailhead_Reports/trailheadapp__Most_Active_Users</members>
+		<members>trailheadapp__Trailhead_Reports/trailheadapp__Most_Popular_Badges</members>
+		<members>trailheadapp__Trailhead_Reports/trailheadapp__New_Badges_Awarded_This_Month</members>
+		<members>trailheadapp__Trailhead_Reports/trailheadapp__New_Badges_Last_90_Days</members>
+		<members>trailheadapp__Trailhead_Reports/trailheadapp__New_Opportunities_Report_CEl1</members>
+		<members>trailheadapp__Trailhead_Reports/trailheadapp__New_Opportunities_Report_CEl2</members>
+		<members>trailheadapp__Trailhead_Reports/trailheadapp__New_Trails_Last_90_Days</members>
+		<members>trailheadapp__Trailhead_Reports/trailheadapp__Open_Cases_with_Avg_Age_bIm</members>
+		<members>trailheadapp__Trailhead_Reports/trailheadapp__Total_Badges_Assigned</members>
+		<members>trailheadapp__Trailhead_Reports/trailheadapp__Total_Badges_Completed</members>
+		<members>trailheadapp__Trailhead_Reports/trailheadapp__Total_Badges_In_Progress</members>
+		<members>trailheadapp__Trailhead_Reports/trailheadapp__Total_Case_Activities_open_and_closed_CQn</members>
+		<members>trailheadapp__Trailhead_Reports/trailheadapp__Total_Cases_closed_status_c8X</members>
+		<members>trailheadapp__Trailhead_Reports/trailheadapp__Total_Cases_closed_status_c8X1</members>
+		<members>trailheadapp__Trailhead_Reports/trailheadapp__Total_Cases_closed_status_c8X2</members>
+		<members>trailheadapp__Trailhead_Reports/trailheadapp__Trailhead_Leaderboard_vIP</members>
+		<members>trailheadapp__Trailhead_Reports/trailheadapp__Trailmix_Assignments</members>
+		<members>unfiled$public/flow_screen_prebuilt_report</members>
+		<name>Report</name>
 	</types>
 	<types>
 		<members>*</members>
@@ -665,8 +1436,42 @@
 		<name>TransactionSecurityPolicy</name>
 	</types>
 	<types>
+		<members>Resource__c.Inspectors_Must_Work_Overtime</members>
+		<members>trailheadapp__User_Badge__c.trailheadapp__User_Is_Required</members>
+		<members>trailheadapp__User_Badge__c.trailheadapp__Validate_Status</members>
+		<name>ValidationRule</name>
+	</types>
+	<types>
+		<members>Account.Billing</members>
+		<members>Campaign.ViewCampaignInfluenceReport</members>
+		<members>Case.UpsellCrosssellOpportunity</members>
+		<members>Opportunity.DeliveryStatus</members>
+		<members>trailheadapp__Trailmix__c.trailheadapp__Assign_Users</members>
+		<members>trailheadapp__Trailmix__c.trailheadapp__Unassign_Users</members>
+		<name>WebLink</name>
+	</types>
+	<types>
 		<members>*</members>
 		<name>Workflow</name>
+	</types>
+	<types>
+		<members>Account.Customer</members>
+		<members>Account.Pending</members>
+		<members>Account.Propietario_de_Texas</members>
+		<members>Account.Prospect</members>
+		<members>Case.ChangePriorityToHigh</members>
+		<members>Case.Set_Case_to_Escalated</members>
+		<name>WorkflowFieldUpdate</name>
+	</types>
+	<types>
+		<members>Account.Cuentas de Texas</members>
+		<members>Case.Case Escalate on High Priority</members>
+		<name>WorkflowRule</name>
+	</types>
+	<types>
+		<members>Account.Seguir_con_la_nueva_cuenta</members>
+		<members>Case.Follow_Up_on_Escalated_Case</members>
+		<name>WorkflowTask</name>
 	</types>
 	<version>55.0</version>
 </Package>
